@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1A1B21;
+    font-family: Inter, sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.app--main {
+    width: 550px;
+    height: 868px;
+    margin: auto;
+    color: #fffff;
+    background-color: #282d35;
+  }
+
+.jzpp {
+    width: 100%;
+}
+
+.info--main {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #1A1B21;
+    width: 317px;
+    height: 399px;
+    margin: 0 auto;
+}
+
+.info--name {
+    color: #FFFFFF;
+    font-size: 25px;
+    padding-top: 20px auto;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-weight: bold;
+}
+
+.info--title {
+    color: #F3BF99;
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 13px;
+    line-height: 15px;
+    line-height: 100%;
+    box-align: Center;
+    vertical-align: Top;
+}
+
+.info--website {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 10.24px;
+    line-height: 15px;
+    line-height: 150%;
+    box-align: Center;
+    vertical-align: Top;
+}
+
+.email--button {
+    background: #FFFFFF url(./images/Mail.png) no-repeat center left;
+    height: 34px;
+    width: 247px;
+    color: #374151;
+    border-radius: 6px;
+    Padding: 0 auto;
+    margin-top: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.info > button {
+    font-family: "Inter", sans-serif;
+    margin-top: 15px;
+    cursor: pointer;
+    padding: 0 auto;
+    width: 115px;
+    height: 34px;
+    border-radius: 6px;
+    border: none;
+  }
+
+.info > button > a {
+    text-decoration: none;
+    margin-left: 8px;
+    font-size: 14px;
+    justify-content: center;
+    font-weight: medium;
+    line-height: 16px;
+}
+
+.email--button > :hover {
+    background: #DDDDDD;
+    color: #FFFFFF;
+}
+
+.email--button > a {
+    color: #374151;
+}
+
+.fa-envelope {
+    margin-right: 8px;
+}
+
+.about--main{
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: left;
+    padding-top: 30px;
+    padding-right: 37px;
+    background-color: #1A1B21;
+    width: 317px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.about--heading{
+    margin-top: 60px;
+    margin-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 150%;
+    Align: Left;
+    vertical-align: Top;
+}
+
+.about--text{
+    padding-left: 25px;
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 10.24px;
+    line-height: 15px;
+    line-height: 150%;
+    Align: Left;
+    vertical-align: Top;
+}
+
+.interests--main{
+    padding: 10px;
+    padding-top: 30px;
+    color: #FFFFFF;
+    background-color: #1A1B21;
+    width: 317px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.interests--heading{
+    margin-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 150%;
+    Align: Left;
+    vertical-align: Top;
+}
+
+.interests--text{
+    padding-left: 25px;
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 10.24px;
+    line-height: 15px;
+    line-height: 150%;
+    Align: Left;
+    vertical-align: Top;
+}
+
+.footer--main{
+    padding: 16px;
+    background-color: #161619;
+    width: 317px;
+    height: 70px;
+    margin: 0 auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer--icons{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-icons > .fab {
+    font-size: 25px;
+    margin: 19px auto;
+    color: #918e9b;
+    cursor: pointer;
+  }
+
+.footer-icons > .fab:hover {
+    color: #676471;
+}
+  
+.twitter--button {
+    background: #FFFFFF url(./images/Twitter Icon.png) no-repeat center;
+    width: 25px;
+    height: 25px;
+}
+
+.facebook--button {
+    background: #FFFFFF url(./images/Facebook Icon.png) no-repeat center;
+    width: 25px;
+    height: 25px;
+}
+.instagram--button {
+    background: #FFFFFF url(./images/Instagram Icon.png) no-repeat center;
+    width: 25px;
+    height: 25px;
+}
+.linkedin--button {
+    background: #FFFFFF url(./images/Linkedin Icon.png) no-repeat center;
+    width: 25px;
+    height: 25px;
+}
+.github--button {
+    background: #FFFFFF url(./images/GitHub Icon.png) no-repeat center;
+    width: 25px;
+    height: 25px;
+}
